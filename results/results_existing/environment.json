@@ -1,0 +1,25 @@
+{
+  "python": "3.11.0",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+  "logical_cpus": 8,
+  "parameters": {
+    "data_dir": "C:\\Users\\elnaa\\OneDrive\\Desktop\\algorithm_project\\datasets",
+    "out": "C:\\Users\\elnaa\\OneDrive\\Desktop\\algorithm_project\\results\\results_existing",
+    "references": null,
+    "timeout": 10,
+    "repeats": 1,
+    "dp_limit": 20,
+    "algorithms": [
+      "brute_force",
+      "branch_bound_v1",
+      "branch_bound_v2",
+      "dp_bottom_up",
+      "dp_top_down",
+      "greedy",
+      "randomized_greedy",
+      "local_search"
+    ],
+    "mode": "existing"
+  }
+}
